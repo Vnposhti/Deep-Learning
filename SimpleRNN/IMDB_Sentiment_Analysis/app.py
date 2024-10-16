@@ -8,7 +8,7 @@ from tensorflow.keras.models import load_model
 
 # Load Word Index and Model
 word_index = imdb.get_word_index()
-model = load_model('model_weights.h5')
+model = load_model('/mount/src/deep-learning/SimpleRNN/IMDB_Sentiment_Analysis/model.h5')
 
 # Function to preocess User Input Texts
 def process_text(user_input):
