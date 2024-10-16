@@ -9,10 +9,10 @@ import pickle
 import streamlit as st
 
 # Give Model, Encoder and Scalar Paths to load files
-model_path = '/mount/src/Deep-Learning/ANN/Churn_Model/model.h5'
-geo_path = '/mount/src/Deep-Learning/ANN/Churn_Model/geo.pkl'
-gender_path = '/mount/src/Deep-Learning/ANN/Churn_Model/gender.pkl'
-scalar_path = '/mount/src/Deep-Learning/ANN/Churn_Model/scalar.pkl'
+model_path = '/mount/src/deep-learning/ANN/Churn_Model/model.h5'
+geo_path = '/mount/src/deep-learning/ANN/Churn_Model/geo.pkl'
+gender_path = '/mount/src/deep-learning/ANN/Churn_Model/gender.pkl'
+scalar_path = '/mount/src/deep-learning/ANN/Churn_Model/scalar.pkl'
 
 # Load model, encoders and scaler with error handling
 model = load_model(model_path)
