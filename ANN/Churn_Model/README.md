@@ -5,8 +5,7 @@ This repository contains an Artificial Neural Network (ANN) model designed to pr
 
 ## Live Demo
 You can access the live Streamlit application at the following link:
-
-**`https://churn-model--023.streamlit.app/`**
+[Banking Churn Prediction Model](https://churn-model-023.streamlit.app/)
 
 ## Main Components
 The main components of this repository include:
