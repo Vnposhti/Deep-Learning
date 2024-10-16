@@ -1,10 +1,4 @@
 ipykernel
 numpy
-pandas
-scikit-learn
 tensorflow
-scikeras
-tensorboard
 streamlit
-ntlk
-gensim
