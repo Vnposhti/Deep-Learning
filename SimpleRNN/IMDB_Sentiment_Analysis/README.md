@@ -5,7 +5,6 @@ This repository contains a Recurrent Neural Network (RNN) model, specifically us
 
 ## Live Demo
 You can access the live Streamlit application at the following link:
-
 [Movie Sentiment Analysis APP](https://imdb-sentiment-analysis-023.streamlit.app/)
 
 ## Dataset
