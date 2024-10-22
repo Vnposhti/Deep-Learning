@@ -6,10 +6,10 @@ from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 
 # Load Model
-model=load_model('gru_model.h5')
+model=load_model('/mount/src/deep-learning/GRU/Hamlet_WordPrediction/gru_model.h5')
 
 #Load Tokenizer
-with open ('gru_tokenizer.pickle','rb') as handle:
+with open ('/mount/src/deep-learning/GRU/Hamlet_WordPrediction/gru_tokenizer.pickle','rb') as handle:
     tokenizer=pickle.load(handle)
 
 # Prediction

@@ -6,10 +6,10 @@ from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 
 # Load Model
-model=load_model('model.h5')
+model=load_model('/mount/src/deep-learning/LSTM/Hamlet_WordPrediction/model.h5')
 
 #Load Tokenizer
-with open ('tokenizer.pickle','rb') as handle:
+with open ('/mount/src/deep-learning/LSTM/Hamlet_WordPrediction/tokenizer.pickle','rb') as handle:
     tokenizer=pickle.load(handle)
 
 # Prediction
